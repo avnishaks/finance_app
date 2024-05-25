@@ -1,0 +1,15 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+      {
+        "name": "Run iOS on iPhone 15 Pro Max",
+        "type": "node",
+        "request": "launch",
+        "program": "${workspaceFolder}/node_modules/react-native/scripts/launchPackager.command",
+        "args": ["run-ios", "--simulator", "iPhone 15 Pro Max"],
+        "console": "integratedTerminal",
+        "internalConsoleOptions": "neverOpen"
+      }
+    ]
+  }
+  
